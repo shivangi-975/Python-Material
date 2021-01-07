@@ -1,3 +1,3 @@
 # Python-Material
 
-This repository contains  information related to python
+This repository contains  notes on  python programming language.
