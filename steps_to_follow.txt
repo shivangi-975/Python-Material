@@ -1,0 +1,42 @@
+1. Add crome extension to download images by below URL
+https://bit.ly/3nXfPI8
+
+2. Download rename files jupyter notebook form below link paste in in the same folder where you 
+placed all the images run it all all the image files will be renamed 
+
+https://github.com/jakkcoder/training_yolo_custom_object_detection_files/blob/main/Rename_files.ipynb
+
+
+2.1 Download labelImg tool with below link 
+https://tzutalin.github.io/labelImg/
+
+3. git link to clone darknet on colab
+https://github.com/pjreddie/darknet
+
+4. Get train and test data generator from here 
+https://github.com/jakkcoder/training_yolo_custom_object_detection_files
+
+Note for point 4 :- I am not the authors for 2 py files complete credit goes to authors for 
+ creating-files-data-and-name, creating-train-and-test-txt-files files.
+
+5. Download pre-trained weights for the convolutional layers (154 MB): 
+ http://pjreddie.com/media/files/darknet53.conv.74 
+
+6.  command to train the model (take care of single line and spaces)
+
+!darknet/darknet detector train custom_data/labelled_data.data darknet/cfg/yolov3_custom.cfg 
+custom_weight/darknet53.conv.74 -dont_show
+
+7. Download code to use trained model to detect object on live video
+https://github.com/jakkcoder/training_yolo_custom_object_detection_files
+
+
+
+In this tutorial I’m going to explain you one of the easiest way to train YOLO to detect a custom object even if you’re a beginner and have no experience with coding.
+
+This video cover:
+1. Setting up Google Colab as a cloud VM with Free GPU.
+2. Commands to get Darknet with YOLOv3 weights installed and running.
+3. YOLOv3 pretrained coco model detections in the Cloud.
+4. Configuration for Custom YOLOv3 Training in the Cloud.
+5. Training Custom YOLOv3 Object Detector in the Cloud.
